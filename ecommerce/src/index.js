@@ -5,9 +5,10 @@ import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 
+
 ReactDOM.render(
   <Router>
-    <App></App>
+    <App/>
   </Router>,
   document.getElementById('root')
 );
